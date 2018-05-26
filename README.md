@@ -15,6 +15,7 @@ npm install express-winston-log-util --save
 let  logUtil  =  require('express-winston-log-util');
 
 logUtil.logEvent("MyClass","MyMethod",JSONObject);
+logUtil.logError("Error message goes here");
 ```
 
 A **trace.log** file will be generated into the root directory of the project

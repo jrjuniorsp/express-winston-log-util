@@ -1,6 +1,6 @@
 {
   "name": "express-winston-log-util",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Utility to be used with Express + Winston",
   "main": "index.js",
   "scripts": {
