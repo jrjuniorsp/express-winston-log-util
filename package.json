@@ -1,0 +1,19 @@
+{
+  "name": "express-winston-log-util",
+  "version": "0.0.5",
+  "description": "Utility to be used with Express + Winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "winston",
+    "log"
+  ],
+  "author": "Jair Rillo Junior",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.0.0-rc5"
+  }
+}
