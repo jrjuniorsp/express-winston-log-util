@@ -4,13 +4,7 @@ var logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({
       name: 'trace-log',
-      filename: 'trace.log',
-      level: 'info'
-    }),
-    new (winston.transports.File)({
-      name: 'error-file',
-      filename: 'trace.log',
-      level: 'error'
+      filename: 'trace.log'
     }),
     new (winston.transports.Console)()
   ]
